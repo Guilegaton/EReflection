@@ -4,4 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Task1.Tests\**" />
+    <EmbeddedResource Remove="Task1.Tests\**" />
+    <None Remove="Task1.Tests\**" />
+  </ItemGroup>
+
 </Project>
